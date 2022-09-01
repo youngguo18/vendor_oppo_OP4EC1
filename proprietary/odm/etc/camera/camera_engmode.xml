@@ -1,7 +1,7 @@
 <!--
-  Copyright (c) 2019 OPPO Technologies, Inc.
+  Copyright (c) 2019 OPLUS Technologies, Inc.
   All Rights Reserved.
-  Confidential and Proprietary - OPPO Technologies, Inc.
+  Confidential and Proprietary - OPLUS Technologies, Inc.
 -->
 <!--
 CameraEngmodeConfig :
@@ -15,8 +15,8 @@ CameraEngmodeConfig :
 <CameraEngmodeRoot>
   <CameraEngmodeConfig>
     <CameraId>0</CameraId>
-    <SensorName>s5kgw1</SensorName>
-    <EepromName>s5kgw1_p24c128e_sunny</EepromName>
+    <SensorName>imx686</SensorName>
+    <EepromName>imx686_gt24p128c2csli</EepromName>
     <isAvailable>true</isAvailable>
     <OisCalib>
       <xGyroOffsetAddr>0x8455</xGyroOffsetAddr>
@@ -29,7 +29,91 @@ CameraEngmodeConfig :
     <eepromCalib>
       <isAvailable>true</isAvailable>
       <MWdata>
-        <devIndex>12</devIndex>
+        <devIndex>9</devIndex>
+        <isWRP>0x1</isWRP>
+        <isAvailable>true</isAvailable>
+        <dataAddress>0x2900</dataAddress>
+        <offset>0x2900</offset>
+        <dataSize>1557</dataSize>
+        <MainParamSrc>0</MainParamSrc>
+        <MainParamDst>128</MainParamDst>
+        <MainParamSize>1557</MainParamSize>
+      </MWdata>
+      <MTdata>
+        <devIndex>9</devIndex>
+        <isWRP>0x1</isWRP>
+        <isAvailable>true</isAvailable>
+        <dataAddress>0x2FC0</dataAddress>
+        <offset>0x2FC0</offset>
+        <dataSize>1557</dataSize>
+        <MainParamSrc>0</MainParamSrc>
+        <MainParamDst>128</MainParamDst>
+        <MainParamSize>1557</MainParamSize>
+      </MTdata>
+      <AEsyncdata>
+        <devIndex>9</devIndex>
+        <isWRP>0x1</isWRP>
+        <isAvailable>true</isAvailable>
+        <dataAddress>0x3828</dataAddress>
+        <offset>0x3828</offset>
+        <dataSize>36</dataSize>
+      </AEsyncdata>
+      <SN>
+        <devIndex>0x01</devIndex>
+        <isWRP>0</isWRP>
+        <isAvailable>true</isAvailable>
+        <dataAddress>0x00B0</dataAddress>
+        <offset>0x00B0</offset>
+        <dataSize>17</dataSize>
+      </SN>
+      <Distortiondata>
+        <devIndex>9</devIndex>
+        <isWRP>0</isWRP>
+        <isAvailable>false</isAvailable>
+        <dataAddress>0x2600</dataAddress>
+        <dataSize>36</dataSize>
+      </Distortiondata>
+	</eepromCalib>
+  </CameraEngmodeConfig>
+  <CameraEngmodeConfig>
+    <CameraId>0</CameraId>
+    <SensorName>imx766</SensorName>
+    <EepromName>imx766_gt24p128c2csli</EepromName>
+    <isAvailable>true</isAvailable>
+    <OisCalib>
+      <xGyroOffsetAddr>0x0000</xGyroOffsetAddr>
+      <yGyroOffsetAddr>0x0000</yGyroOffsetAddr>
+      <xGyroOffsetCalibAddr>0x3780</xGyroOffsetCalibAddr>
+      <yGyroOffsetCalibAddr>0x3780</yGyroOffsetCalibAddr>
+      <xGainAddr>0x399A</xGainAddr>
+      <yGainAddr>0x399C</yGainAddr>
+      <xDelayAddr>0x399E</xDelayAddr>
+      <yDelayAddr>0x399F</yDelayAddr>
+      <regAddrType>2</regAddrType>
+      <regDataType>2</regDataType>
+    </OisCalib>
+    <SensorInfo>
+      <sensorNameAddr>0x0006</sensorNameAddr>
+      <sensorNameSize>2</sensorNameSize>
+      <sensorVersionAddr>0x000C</sensorVersionAddr>
+      <sensorVersionSize>1</sensorVersionSize>
+      <sensorVcmidAddr>0x000A</sensorVcmidAddr>
+      <sensorVcmidSize>2</sensorVcmidSize>
+      <sensorLensidAddr>0x0008</sensorLensidAddr>
+      <sensorLensidSize>2</sensorLensidSize>
+      <sensorQrcodeAddr>0x00B0</sensorQrcodeAddr>
+      <sensorQrcodeSize>17</sensorQrcodeSize>
+      <sensorMarcoPosAddr>0x0092</sensorMarcoPosAddr>
+      <sensorMarcoPosSize>2</sensorMarcoPosSize>
+      <sensorInfinityPosAddr>0x0094</sensorInfinityPosAddr>
+      <sensorInfinityPosSize>2</sensorInfinityPosSize>
+      <regAddrType>2</regAddrType>
+      <regDataType>2</regDataType>
+    </SensorInfo>
+    <eepromCalib>
+      <isAvailable>true</isAvailable>
+      <MWdata>
+        <devIndex>9</devIndex>
         <isWRP>0x1</isWRP>
         <isAvailable>true</isAvailable>
         <dataAddress>0x2B00</dataAddress>
@@ -40,9 +124,9 @@ CameraEngmodeConfig :
         <MainParamSize>1557</MainParamSize>
       </MWdata>
       <MTdata>
-        <devIndex>12</devIndex>
+        <devIndex>9</devIndex>
         <isWRP>0x1</isWRP>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <dataAddress>0x3140</dataAddress>
         <offset>0x3140</offset>
         <dataSize>1557</dataSize>
@@ -51,9 +135,9 @@ CameraEngmodeConfig :
         <MainParamSize>1557</MainParamSize>
       </MTdata>
       <AEsyncdata>
-        <devIndex>12</devIndex>
+        <devIndex>9</devIndex>
         <isWRP>0x1</isWRP>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <dataAddress>0x3820</dataAddress>
         <offset>0x3820</offset>
         <dataSize>36</dataSize>
@@ -67,23 +151,37 @@ CameraEngmodeConfig :
         <dataSize>17</dataSize>
       </SN>
       <Distortiondata>
-        <devIndex>12</devIndex>
+        <devIndex>9</devIndex>
         <isWRP>0</isWRP>
         <isAvailable>false</isAvailable>
         <dataAddress>0x2600</dataAddress>
         <dataSize>36</dataSize>
       </Distortiondata>
-	</eepromCalib>
+    </eepromCalib>
   </CameraEngmodeConfig>
   <CameraEngmodeConfig>
     <CameraId>1</CameraId>
-    <SensorName>hi846</SensorName>
-    <EepromName>hi846_p24p128ed4h</EepromName>
+    <SensorName>imx481</SensorName>
+    <EepromName>imx481_p24p128ed4h</EepromName>
     <isAvailable>true</isAvailable>
+    <SensorInfo>
+      <sensorNameAddr>0x0006</sensorNameAddr>
+      <sensorNameSize>2</sensorNameSize>
+      <sensorVersionAddr>0x000C</sensorVersionAddr>
+      <sensorVersionSize>0</sensorVersionSize>
+      <sensorVcmidAddr>0x000A</sensorVcmidAddr>
+      <sensorVcmidSize>2</sensorVcmidSize>
+      <sensorLensidAddr>0x0008</sensorLensidAddr>
+      <sensorLensidSize>2</sensorLensidSize>
+      <sensorQrcodeAddr>0x00B0</sensorQrcodeAddr>
+      <sensorQrcodeSize>17</sensorQrcodeSize>
+      <regAddrType>2</regAddrType>
+      <regDataType>2</regDataType>
+    </SensorInfo>
     <eepromCalib>
       <isAvailable>true</isAvailable>
       <MWdata>
-          <devIndex>13</devIndex>
+          <devIndex>10</devIndex>
           <isWRP>0x1</isWRP>
           <isAvailable>true</isAvailable>
           <dataAddress>0x0E40</dataAddress>
@@ -97,7 +195,7 @@ CameraEngmodeConfig :
           <AuxParamSize>1545</AuxParamSize>
       </MWdata>
       <MTdata>
-          <devIndex>13</devIndex>
+          <devIndex>10</devIndex>
           <isWRP>0x1</isWRP>
           <isAvailable>false</isAvailable>
           <dataAddress>0x540</dataAddress>
@@ -105,9 +203,9 @@ CameraEngmodeConfig :
           <dataSize>1561</dataSize>
       </MTdata>
       <AEsyncdata>
-          <devIndex>13</devIndex>
+          <devIndex>10</devIndex>
           <isWRP>0x1</isWRP>
-          <isAvailable>false</isAvailable>
+          <isAvailable>true</isAvailable>
           <dataAddress>0x2300</dataAddress>
           <offset>0x2300</offset>
           <dataSize>36</dataSize>
@@ -121,9 +219,10 @@ CameraEngmodeConfig :
           <dataSize>17</dataSize>
       </SN>
       <Distortiondata>
-          <devIndex>13</devIndex>
+          <devIndex>10</devIndex>
           <isWRP>1</isWRP>
           <isAvailable>true</isAvailable>
+          <isUseBackup>true</isUseBackup>
           <dataAddress>0x1500</dataAddress>
           <offset>0x1500</offset>
           <dataSize>3441</dataSize>
@@ -132,11 +231,25 @@ CameraEngmodeConfig :
   </CameraEngmodeConfig>
   <CameraEngmodeConfig>
     <CameraId>2</CameraId>
-    <SensorName>imx471</SensorName>
-    <EepromName>imx471_p24c64e_truly</EepromName>
-    <isAvailable>true</isAvailable>
+    <SensorName>imx615</SensorName>
+    <EepromName></EepromName>
+    <isAvailable>false</isAvailable>
+    <SensorInfo>
+      <sensorNameAddr>0x0006</sensorNameAddr>
+      <sensorNameSize>2</sensorNameSize>
+      <sensorVersionAddr>0x000C</sensorVersionAddr>
+      <sensorVersionSize>0</sensorVersionSize>
+      <sensorVcmidAddr>0x000A</sensorVcmidAddr>
+      <sensorVcmidSize>2</sensorVcmidSize>
+      <sensorLensidAddr>0x0008</sensorLensidAddr>
+      <sensorLensidSize>2</sensorLensidSize>
+      <sensorQrcodeAddr>0x00B0</sensorQrcodeAddr>
+      <sensorQrcodeSize>17</sensorQrcodeSize>
+      <regAddrType>2</regAddrType>
+      <regDataType>2</regDataType>
+    </SensorInfo>
     <eepromCalib>
-      <isAvailable>true</isAvailable>
+      <isAvailable>false</isAvailable>
       <MWdata>
         <devIndex>14</devIndex>
         <isWRP>0x00</isWRP>
@@ -165,9 +278,9 @@ CameraEngmodeConfig :
       <SN>
         <devIndex>0x04</devIndex>
         <isWRP>0</isWRP>
-        <isAvailable>true</isAvailable>
-        <dataAddress>0x00B0</dataAddress>
-        <offset>0x00B0</offset>
+        <isAvailable>false</isAvailable>
+        <dataAddress>0x1C0A</dataAddress>
+        <offset>40</offset>
         <dataSize>17</dataSize>
       </SN>
       <Distortiondata>
@@ -182,13 +295,31 @@ CameraEngmodeConfig :
   </CameraEngmodeConfig>
   <CameraEngmodeConfig>
     <CameraId>3</CameraId>
-    <SensorName>ov02b</SensorName>
-    <EepromName>ov02b_gt24p64_holitech</EepromName>
+    <SensorName>s5k3m5</SensorName>
+    <EepromName>s5k3m5sx_p24p128ed4h</EepromName>
     <isAvailable>true</isAvailable>
+    <SensorInfo>
+      <sensorNameAddr>0x0006</sensorNameAddr>
+      <sensorNameSize>2</sensorNameSize>
+      <sensorVersionAddr>0x000C</sensorVersionAddr>
+      <sensorVersionSize>0</sensorVersionSize>
+      <sensorVcmidAddr>0x000A</sensorVcmidAddr>
+      <sensorVcmidSize>2</sensorVcmidSize>
+      <sensorLensidAddr>0x0008</sensorLensidAddr>
+      <sensorLensidSize>2</sensorLensidSize>
+      <sensorQrcodeAddr>0x00B0</sensorQrcodeAddr>
+      <sensorQrcodeSize>17</sensorQrcodeSize>
+      <sensorMarcoPosAddr>0x0092</sensorMarcoPosAddr>
+      <sensorMarcoPosSize>2</sensorMarcoPosSize>
+      <sensorInfinityPosAddr>0x0094</sensorInfinityPosAddr>
+      <sensorInfinityPosSize>2</sensorInfinityPosSize>
+      <regAddrType>2</regAddrType>
+      <regDataType>2</regDataType>
+    </SensorInfo>
     <eepromCalib>
       <isAvailable>true</isAvailable>
       <MWdata>
-        <devIndex>16</devIndex>
+        <devIndex>12</devIndex>
         <isWRP>0x00</isWRP>
         <isAvailable>false</isAvailable>
         <dataAddress>0x530</dataAddress>
@@ -196,55 +327,110 @@ CameraEngmodeConfig :
         <dataSize>1561</dataSize>
       </MWdata>
       <MTdata>
-        <devIndex>16</devIndex>
+        <devIndex>12</devIndex>
         <isWRP>0x1</isWRP>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <dataAddress>0x1B00</dataAddress>
         <offset>0x1B00</offset>
-        <dataSize>893</dataSize>
-        <!--first byte128-->
+        <dataSize>1021</dataSize>
         <Head1Src>0</Head1Src>
         <Head1Dst>0</Head1Dst>
-        <Head1Size>0</Head1Size>
-        <!--second byte40-->
-        <Head2Src>0</Head2Src>
-        <Head2Dst>0</Head2Dst>
-        <Head2Size>0</Head2Size>
-        <!--internalPara main-->
-        <MainParamSrc>0</MainParamSrc>
-        <MainParamDst>0</MainParamDst>
-        <MainParamSize>0</MainParamSize>
-        <!--internalPara aux-->
-        <AuxParamSrc>0</AuxParamSrc>
+        <Head1Size>128</Head1Size>
+        <AuxParamSrc>128</AuxParamSrc>
         <AuxParamDst>1685</AuxParamDst>
-        <AuxParamSize>865</AuxParamSize>
-        <!--externalPara-->
-        <extParamSrc>865</extParamSrc>
-        <extParamDst>2550</extParamDst>
-        <extParamSize>24</extParamSize>
-        <!--endPara-->
-        <EndParamSrc>889</EndParamSrc>
-        <EndParamDst>2574</EndParamDst>
-        <EndParamSize>4</EndParamSize>
+        <AuxParamSize>893</AuxParamSize>
       </MTdata>
       <AEsyncdata>
-        <devIndex>16</devIndex>
+        <devIndex>12</devIndex>
         <isWRP>0x1</isWRP>
-        <isAvailable>false</isAvailable>
-        <dataAddress>0x2A40</dataAddress>
+        <isAvailable>true</isAvailable>
+        <dataAddress>0x2A20</dataAddress>
         <offset>0x2A20</offset>
         <dataSize>36</dataSize>
       </AEsyncdata>
       <SN>
         <devIndex>0x03</devIndex>
-        <isWRP>0</isWRP>
+        <isWRP>1</isWRP>
         <isAvailable>true</isAvailable>
-        <dataAddress>0x00E0</dataAddress>
-        <offset>0x00E0</offset>
+        <dataAddress>0x00B0</dataAddress>
+        <offset>0x00B0</offset>
         <dataSize>17</dataSize>
       </SN>
       <Distortiondata>
-        <devIndex>16</devIndex>
+        <devIndex>12</devIndex>
+        <isWRP>0x00</isWRP>
+        <isAvailable>false</isAvailable>
+        <dataAddress>0x2600</dataAddress>
+        <offset>0x1E20</offset>
+        <dataSize>36</dataSize>
+      </Distortiondata>
+    </eepromCalib>
+  </CameraEngmodeConfig>
+  <CameraEngmodeConfig>
+    <CameraId>4</CameraId>
+    <SensorName>ov02b</SensorName>
+    <EepromName>ov02b_gt24p64_holitech_19365</EepromName>
+    <isAvailable>true</isAvailable>
+    <SensorInfo>
+      <sensorNameAddr>0x0005</sensorNameAddr>
+      <sensorNameSize>1</sensorNameSize>
+      <sensorVersionAddr>0x0009</sensorVersionAddr>
+      <sensorVersionSize>0</sensorVersionSize>
+      <sensorVcmidAddr>0x0007</sensorVcmidAddr>
+      <sensorVcmidSize>1</sensorVcmidSize>
+      <sensorLensidAddr>0x0006</sensorLensidAddr>
+      <sensorLensidSize>1</sensorLensidSize>
+      <sensorQrcodeAddr>0x00e0</sensorQrcodeAddr>
+      <sensorQrcodeSize>17</sensorQrcodeSize>
+      <sensorMarcoPosAddr>0x0092</sensorMarcoPosAddr>
+      <sensorMarcoPosSize>0</sensorMarcoPosSize>
+      <sensorInfinityPosAddr>0x0094</sensorInfinityPosAddr>
+      <sensorInfinityPosSize>0</sensorInfinityPosSize>
+      <regAddrType>2</regAddrType>
+      <regDataType>2</regDataType>
+    </SensorInfo>
+    <eepromCalib>
+      <isAvailable>true</isAvailable>
+      <MWdata>
+        <devIndex>12</devIndex>
+        <isWRP>0x00</isWRP>
+        <isAvailable>false</isAvailable>
+        <dataAddress>0x530</dataAddress>
+        <offset>0x530</offset>
+        <dataSize>1561</dataSize>
+      </MWdata>
+      <MTdata>
+        <devIndex>12</devIndex>
+        <isWRP>0x1</isWRP>
+        <isAvailable>false</isAvailable>
+        <dataAddress>0x1B00</dataAddress>
+        <offset>0x1B00</offset>
+        <dataSize>1021</dataSize>
+        <Head1Src>0</Head1Src>
+        <Head1Dst>0</Head1Dst>
+        <Head1Size>128</Head1Size>
+        <AuxParamSrc>128</AuxParamSrc>
+        <AuxParamDst>1685</AuxParamDst>
+        <AuxParamSize>893</AuxParamSize>
+      </MTdata>
+      <AEsyncdata>
+        <devIndex>12</devIndex>
+        <isWRP>0x1</isWRP>
+        <isAvailable>false</isAvailable>
+        <dataAddress>0x2A20</dataAddress>
+        <offset>0x2A20</offset>
+        <dataSize>36</dataSize>
+      </AEsyncdata>
+      <SN>
+        <devIndex>0x05</devIndex>
+        <isWRP>1</isWRP>
+        <isAvailable>false</isAvailable>
+        <dataAddress>0x00B0</dataAddress>
+        <offset>0x00B0</offset>
+        <dataSize>17</dataSize>
+      </SN>
+      <Distortiondata>
+        <devIndex>12</devIndex>
         <isWRP>0x00</isWRP>
         <isAvailable>false</isAvailable>
         <dataAddress>0x2600</dataAddress>
