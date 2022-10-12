@@ -1,7 +1,7 @@
 {
   "config":{
-    "hw_platform": ["MTP"],
-    "soc_id": ["356","365","400"]
+    "hw_platform": ["MTP","QRD"],
+    "soc_id": ["356","365","400","476"]
   },
   "lsm6dsm_0":{
     "owner": "lsm6dsm",

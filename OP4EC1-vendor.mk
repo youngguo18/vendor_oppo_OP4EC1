@@ -31,20 +31,27 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
     vendor/oppo/OP4EC1/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/FusionBin.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/FusionBin.dat \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/anc_cl_kernel_ins.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel_ins.cache \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/cfr_bin/cfr_bin/CFR_imx766.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/cfr_bin/CFR_imx766.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/cfr_bin/cfr_bin/CFR_s5k3m5.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/cfr_bin/CFR_s5k3m5.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/imx586:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx586 \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/imx481:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx481 \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/imx615:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx615 \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/imx616:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx616 \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/imx689:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx689 \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/oppo_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oppo_camera_algo_switch_config \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/oppo_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oppo_camera_aps_config \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/oppo_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oppo_camera_config \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/imx686:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx686 \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/imx766:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx766 \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/ov02b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/s5k3m5:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5k3m5 \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
@@ -97,7 +104,41 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212.png \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/213.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/EYES_MUTIL_3_4_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/EYES_MUTIL_3_4_354_654.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/FIRST_LOVE_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/FIRST_LOVE_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/GROOMED_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/GROOMED_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/MIDNIGHT_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/MIDNIGHT_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/ORANGE_CRUSH_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/ORANGE_CRUSH_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/PEACH_PINK_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/PEACH_PINK_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/RED_VELVET_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/RED_VELVET_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/ROSE_NUDE_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/ROSE_NUDE_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_4_5_178_440.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_4_5_178_440.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_4_5_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_4_5_354_654.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame0.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame0.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame1.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame1.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame2.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame3.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame3.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame4.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame4.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_4_4_178_440.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_4_4_178_440.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_4_4_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_4_4_354_654.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame0.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame0.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame1.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame1.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame2.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame3.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame3.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame4.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame4.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/SMOKEY_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SMOKEY_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/UNIQUE_EYES_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/UNIQUE_EYES_1_4_1005_838.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/beauty_body.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/beauty_body.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyeBright.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/eyesMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/eyesMaskNew.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/eyesMaskNew.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/faceLipsMaskPre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/faceLipsMaskPre.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/face_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/preSkinmask137.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/preSkinmask296.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask296.png \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs00.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs01.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs02.bin \
@@ -116,31 +157,62 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fdc_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_cl.cache \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/fdc_lite_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_lite_cl.cache \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1VLf4peM \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1aMqioxf \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/B1nmcmWbG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1nmcmWbG \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/B1si_XbZz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1si_XbZz \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/B612Pretty.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B612Pretty.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/BJJAwoigM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJJAwoigM \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/BJyKIwqxz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJyKIwqxz \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByW7g4bbf \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByYo3If \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BycYf7WWz \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/EyxRbD2UCe:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/EyxRbD2UCe \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsClarendon.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsJuno.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/SJ3mbr6ef:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SJ3mbr6ef \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/SkpZ8ebbz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SkpZ8ebbz \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Sy4uLSTgf \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Syt2KeZZf \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/black_gold.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bright_coloured.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/default:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/default \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw1994.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw2010.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/f_bin_hideaki:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_bin_hideaki \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/f_contrast_gray_face_dark:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_contrast_gray_face_dark \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/interstellar_space.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/neon-2020.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/neon_yuv_LUT_64.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oplus_r4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r4.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oplus_r5.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r5.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oplus_r6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r6.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_black_and_white:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_black_and_white \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_highlight:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_highlight \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_ins:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_ins \
@@ -160,45 +232,109 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/r1PrfoolG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1PrfoolG \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJ5g5vPWG \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/rJxJtmaez:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJxJtmaez \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/realme-black-gold-1.1-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/realme-black-gold-1.1-RGB.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/realme-cyberpunk-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/realme-cyberpunk-RGB.CUBE.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/realme-infra-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/realme-infra-RGB.CUBE.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/red-red.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/rkMhq4ZWf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkMhq4ZWf \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/rkx5u4Zbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkx5u4Zbf \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sky-blue.cube.rgb.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/tree-green.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/type_fuji_acros:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_acros \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/type_fuji_astia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_astia \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/type_fuji_chrome:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_chrome \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/type_fuji_provia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_provia \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/type_fuji_velvia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_velvia \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_res/film_grain_small.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/film_grain_small.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/license_release_fdc.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/license_release_fdc.lic \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/master.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/cache:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/cache \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/fusion_model \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/fusion_model_post \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/merged_model \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/merged_model_post \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/siq_ocl_cache:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/siq_ocl_cache \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/superiq_model:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/superiq_model \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/video_retention_model:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/video_retention_model \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/video_retention_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/video_retention_model_post \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/videolut_background.png:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/videolut_background.png \
-    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii/videolut_portrait.png:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/videolut_portrait.png \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii32/cache:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii32/cache \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii32/siq_ocl_cache:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii32/siq_ocl_cache \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/megvii32/superiq_model:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii32/superiq_model \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/model/license.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/model/license.lic \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.frag \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/BeardSharp.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.vert \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreAddSRBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreAddSRBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreBilaFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreBilaFilterBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreCalVarBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalVarBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreCalcSRBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalcSRBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreContrastSumTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreContrastSumTwoBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreContrastTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreContrastTwoBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreContrastUpdateTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreContrastUpdateTwoBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreDepouchBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreDepouchBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreEyeMeanBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreEyeMeanBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreEyeMeanTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreEyeMeanTwoBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreEyeTuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreEyeTuneBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreHighPassBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreHighPassPreBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassPreBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHoriFilterBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreMakeupBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreMakeupTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupTwoBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreMixImageBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMixImageBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMorphBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreMorphTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMorphTwoBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreOnlywhitenBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSaveMaskBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSaveMaskBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSaveMaskTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSaveMaskTwoBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSobelSumTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelSumTwoBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSobelTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelTwoBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSobelUpdateTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelUpdateTwoBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertFilterBinary.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/PreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertSurBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.frag \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.vert \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.frag \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.vert \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.frag \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.vert \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.frag \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.vert \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/sensetime/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/sensetime/personseg.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/sensetime/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/sensetime/preview_seg.json \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/camera/tele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele.bin \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
     vendor/oppo/OP4EC1/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
@@ -273,11 +409,26 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/etc/inparm/irissoft/inParm9.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm9.txt \
     vendor/oppo/OP4EC1/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
     vendor/oppo/OP4EC1/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_amb655uv01_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655uv01_eyeprotect_data.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_amb655uv01_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655uv01_srgb_eyeprotect_data.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_amb655xl08_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655xl08_eyeprotect_data.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_amb655xl08_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655xl08_srgb_eyeprotect_data.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_ana6706_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_eyeprotect_data.xml \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml \
     vendor/oppo/OP4EC1/proprietary/odm/etc/nfc/nfc_chipset_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_chipset_ref \
     vendor/oppo/OP4EC1/proprietary/odm/etc/nfc/nfc_conf_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_conf_ref \
     vendor/oppo/OP4EC1/proprietary/odm/etc/nfc/nfc_fw_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_fw_ref \
     vendor/oppo/OP4EC1/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_57 \
     vendor/oppo/OP4EC1/proprietary/odm/etc/seccomp_policy/codec2.vendor.base.policy:$(TARGET_COPY_OUT_ODM)/etc/seccomp_policy/codec2.vendor.base.policy \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/config/kona_qrd_cct_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct_rear.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/config/kona_qrd_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_icm4x6xx.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/config/kona_qrd_lsm6dso.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_lsm6dso.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
+    vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/config/sx932x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/sx932x_0.json \
     vendor/oppo/OP4EC1/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oppo/OP4EC1/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/oppo/OP4EC1/proprietary/odm/etc/wifi/bin_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version \
@@ -290,27 +441,27 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_About_School_RTP_17_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_About_School_RTP_17_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_About_School_RTP_17_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_About_School_RTP_17_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_About_School_RTP_17_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_About_School_RTP_17_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_coloros7_123.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_coloros7_123.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_coloros7_123_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_coloros7_123_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_coloros7_123_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_coloros7_123_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_coloros7_123_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_coloros7_123_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_coloros7_123_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_coloros7_123_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_coloros7_123_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_coloros7_123_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_coloros7_123_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_coloros7_123_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_coloros7_138.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_coloros7_138.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_coloros7_138_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_coloros7_138_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_coloros7_138_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_coloros7_138_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_coloros7_138_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_coloros7_138_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_coloros7_138_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_coloros7_138_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_coloros7_138_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_coloros7_138_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_coloros7_138_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_coloros7_138_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_coloros7_128.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_coloros7_128.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_coloros7_128_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_coloros7_128_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_coloros7_128_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_coloros7_128_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_coloros7_128_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_coloros7_128_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_coloros7_128_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_coloros7_128_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_coloros7_128_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_coloros7_128_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_coloros7_128_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_coloros7_128_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_123.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_123.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_123_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_123_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_123_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_123_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_123_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_123_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_123_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_123_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_123_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_123_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Appear_channel_RTP_123_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_123_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_138.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_138.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_138_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_138_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_138_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_138_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_138_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_138_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_138_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_138_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_138_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_138_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bliss_RTP_138_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_138_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_128.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_128.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_128_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_128_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_128_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_128_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_128_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_128_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_128_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_128_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_128_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_128_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Bright_channel_RTP_128_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bright_channel_RTP_128_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Childhood_RTP_19.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Childhood_RTP_19.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Childhood_RTP_19_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Childhood_RTP_19_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Childhood_RTP_19_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Childhood_RTP_19_175Hz.bin \
@@ -318,13 +469,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Childhood_RTP_19_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Childhood_RTP_19_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Childhood_RTP_19_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Childhood_RTP_19_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Childhood_RTP_19_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Childhood_RTP_19_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_coloros7_135.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_coloros7_135.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_coloros7_135_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_coloros7_135_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_coloros7_135_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_coloros7_135_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_coloros7_135_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_coloros7_135_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_coloros7_135_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_coloros7_135_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_coloros7_135_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_coloros7_135_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_coloros7_135_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_coloros7_135_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_135.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_135.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_135_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_135_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_135_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_135_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_135_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_135_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_135_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_135_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_135_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_135_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Classical_ring_RTP_135_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Classical_ring_RTP_135_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Commuting_RTP_20.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Commuting_RTP_20.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Commuting_RTP_20_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Commuting_RTP_20_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Commuting_RTP_20_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Commuting_RTP_20_175Hz.bin \
@@ -332,13 +483,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Commuting_RTP_20_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Commuting_RTP_20_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Commuting_RTP_20_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Commuting_RTP_20_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Commuting_RTP_20_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Commuting_RTP_20_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_coloros7_139.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_coloros7_139.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_coloros7_139_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_coloros7_139_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_coloros7_139_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_coloros7_139_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_coloros7_139_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_coloros7_139_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_coloros7_139_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_coloros7_139_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_coloros7_139_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_coloros7_139_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_coloros7_139_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_coloros7_139_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_139.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_139.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_139_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_139_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_139_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_139_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_139_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_139_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_139_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_139_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_139_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_139_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Dream_RTP_139_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Dream_RTP_139_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Firefly_RTP_22.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Firefly_RTP_22.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Firefly_RTP_22_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Firefly_RTP_22_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Firefly_RTP_22_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Firefly_RTP_22_175Hz.bin \
@@ -346,13 +497,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Firefly_RTP_22_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Firefly_RTP_22_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Firefly_RTP_22_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Firefly_RTP_22_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Firefly_RTP_22_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Firefly_RTP_22_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_coloros7_129.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_coloros7_129.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_coloros7_129_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_coloros7_129_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_coloros7_129_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_coloros7_129_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_coloros7_129_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_coloros7_129_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_coloros7_129_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_coloros7_129_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_coloros7_129_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_coloros7_129_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_coloros7_129_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_coloros7_129_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_129.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_129.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_129_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_129_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_129_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_129_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_129_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_129_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_129_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_129_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_129_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_129_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Fun_channel_RTP_129_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Fun_channel_RTP_129_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Gaze_RTP_24.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Gaze_RTP_24.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Gaze_RTP_24_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Gaze_RTP_24_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Gaze_RTP_24_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Gaze_RTP_24_175Hz.bin \
@@ -360,13 +511,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Gaze_RTP_24_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Gaze_RTP_24_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Gaze_RTP_24_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Gaze_RTP_24_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Gaze_RTP_24_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Gaze_RTP_24_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_coloros7_130.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_coloros7_130.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_coloros7_130_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_coloros7_130_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_coloros7_130_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_coloros7_130_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_coloros7_130_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_coloros7_130_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_coloros7_130_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_coloros7_130_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_coloros7_130_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_coloros7_130_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_coloros7_130_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_coloros7_130_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_130.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_130.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_130_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_130_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_130_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_130_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_130_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_130_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_130_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_130_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_130_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_130_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Glittering_channel_RTP_130_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Glittering_channel_RTP_130_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Granules_channel_RTP_9.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Granules_channel_RTP_9.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Granules_channel_RTP_9_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Granules_channel_RTP_9_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Granules_channel_RTP_9_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Granules_channel_RTP_9_175Hz.bin \
@@ -374,13 +525,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Granules_channel_RTP_9_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Granules_channel_RTP_9_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Granules_channel_RTP_9_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Granules_channel_RTP_9_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Granules_channel_RTP_9_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Granules_channel_RTP_9_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_coloros7_131.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_coloros7_131.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_coloros7_131_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_coloros7_131_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_coloros7_131_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_coloros7_131_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_coloros7_131_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_coloros7_131_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_coloros7_131_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_coloros7_131_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_coloros7_131_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_coloros7_131_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_coloros7_131_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_coloros7_131_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_131.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_131.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_131_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_131_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_131_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_131_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_131_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_131_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_131_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_131_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_131_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_131_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Harp_channel_RTP_131_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Harp_channel_RTP_131_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Impression_channel_RTP_11.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Impression_channel_RTP_11.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ingenious_channel_RTP_12.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ingenious_channel_RTP_12.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ingenious_channel_RTP_12_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ingenious_channel_RTP_12_165Hz.bin \
@@ -403,13 +554,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_13_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_13_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_13_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_13_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_13_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_13_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_coloros7_141.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_coloros7_141.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_coloros7_141_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_coloros7_141_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_coloros7_141_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_coloros7_141_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_coloros7_141_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_coloros7_141_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_coloros7_141_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_coloros7_141_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_coloros7_141_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_coloros7_141_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_coloros7_141_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_coloros7_141_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_141.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_141.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_141_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_141_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_141_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_141_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_141_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_141_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_141_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_141_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_141_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_141_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Joy_channel_RTP_141_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Joy_channel_RTP_141_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Lakeside_RTP_25.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Lakeside_RTP_25.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Lakeside_RTP_25_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Lakeside_RTP_25_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Lakeside_RTP_25_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Lakeside_RTP_25_175Hz.bin \
@@ -418,13 +569,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Lakeside_RTP_25_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Lakeside_RTP_25_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Lakeside_RTP_25_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Lakeside_RTP_25_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Lifestyle_RTP_26.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Lifestyle_RTP_26.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_coloros7_136.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_coloros7_136.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_coloros7_136_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_coloros7_136_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_coloros7_136_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_coloros7_136_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_coloros7_136_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_coloros7_136_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_coloros7_136_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_coloros7_136_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_coloros7_136_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_coloros7_136_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_coloros7_136_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_coloros7_136_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_136.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_136.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_136_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_136_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_136_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_136_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_136_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_136_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_136_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_136_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_136_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_136_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Long_for_RTP_136_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Long_for_RTP_136_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Memories_RTP_27.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Memories_RTP_27.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Memories_RTP_27_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Memories_RTP_27_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Memories_RTP_27_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Memories_RTP_27_175Hz.bin \
@@ -439,20 +590,20 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Messy_RTP_28_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Messy_RTP_28_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Messy_RTP_28_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Messy_RTP_28_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Messy_RTP_28_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Messy_RTP_28_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_coloros7_124.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_coloros7_124.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_coloros7_124_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_coloros7_124_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_coloros7_124_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_coloros7_124_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_coloros7_124_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_coloros7_124_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_coloros7_124_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_coloros7_124_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_coloros7_124_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_coloros7_124_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_coloros7_124_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_coloros7_124_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_coloros7_125.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_coloros7_125.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_coloros7_125_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_coloros7_125_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_coloros7_125_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_coloros7_125_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_coloros7_125_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_coloros7_125_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_coloros7_125_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_coloros7_125_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_coloros7_125_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_coloros7_125_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_coloros7_125_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_coloros7_125_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_124.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_124.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_124_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_124_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_124_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_124_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_124_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_124_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_124_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_124_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_124_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_124_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Miss_RTP_124_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Miss_RTP_124_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_125.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_125.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_125_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_125_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_125_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_125_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_125_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_125_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_125_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_125_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_125_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_125_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Music_channel_RTP_125_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Music_channel_RTP_125_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Night_RTP_29.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Night_RTP_29.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Night_RTP_29_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Night_RTP_29_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Night_RTP_29_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Night_RTP_29_175Hz.bin \
@@ -460,13 +611,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Night_RTP_29_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Night_RTP_29_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Night_RTP_29_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Night_RTP_29_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Night_RTP_29_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Night_RTP_29_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_coloros7_132.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_coloros7_132.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_coloros7_132_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_coloros7_132_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_coloros7_132_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_coloros7_132_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_coloros7_132_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_coloros7_132_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_coloros7_132_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_coloros7_132_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_coloros7_132_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_coloros7_132_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_coloros7_132_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_coloros7_132_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_132.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_132.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_132_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_132_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_132_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_132_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_132_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_132_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_132_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_132_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_132_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_132_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Overtone_channel_RTP_132_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Overtone_channel_RTP_132_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Passionate_Dance_RTP_30.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Passionate_Dance_RTP_30.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Passionate_Dance_RTP_30_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Passionate_Dance_RTP_30_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Passionate_Dance_RTP_30_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Passionate_Dance_RTP_30_175Hz.bin \
@@ -474,13 +625,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Passionate_Dance_RTP_30_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Passionate_Dance_RTP_30_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Passionate_Dance_RTP_30_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Passionate_Dance_RTP_30_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Passionate_Dance_RTP_30_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Passionate_Dance_RTP_30_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_126.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_coloros7_126.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_126_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_coloros7_126_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_126_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_coloros7_126_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_126_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_coloros7_126_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_126_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_coloros7_126_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_126_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_coloros7_126_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_126_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_coloros7_126_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_126.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_126.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_126_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_126_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_126_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_126_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_126_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_126_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_126_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_126_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_126_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_126_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Percussion_channel_RTP_126_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Percussion_channel_RTP_126_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Playground_RTP_31.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Playground_RTP_31.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Playground_RTP_31_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Playground_RTP_31_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Playground_RTP_31_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Playground_RTP_31_175Hz.bin \
@@ -502,6 +653,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Receive_channel_RTP_15_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Receive_channel_RTP_15_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Receive_channel_RTP_15_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Receive_channel_RTP_15_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Receive_channel_RTP_15_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Receive_channel_RTP_15_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_140.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_140.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_140_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_140_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_140_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_140_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_140_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_140_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_140_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_140_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_140_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_140_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_140_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_140_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_32.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_32.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_32_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_32_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_32_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_32_175Hz.bin \
@@ -509,28 +667,21 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_32_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_32_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_32_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_32_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_32_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_32_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_coloros7_140.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_coloros7_140.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_coloros7_140_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_coloros7_140_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_coloros7_140_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_coloros7_140_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_coloros7_140_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_coloros7_140_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_coloros7_140_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_coloros7_140_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_coloros7_140_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_coloros7_140_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Relax_RTP_coloros7_140_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Relax_RTP_coloros7_140_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Reminiscence_RTP_33.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Reminiscence_RTP_33.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_coloros7_127.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_coloros7_127.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_coloros7_127_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_coloros7_127_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_coloros7_127_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_coloros7_127_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_coloros7_127_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_coloros7_127_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_coloros7_127_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_coloros7_127_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_coloros7_127_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_coloros7_127_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_coloros7_127_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_coloros7_127_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_coloros7_137.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_coloros7_137.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_coloros7_137_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_coloros7_137_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_coloros7_137_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_coloros7_137_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_coloros7_137_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_coloros7_137_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_coloros7_137_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_coloros7_137_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_coloros7_137_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_coloros7_137_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_coloros7_137_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_coloros7_137_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_127.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_127.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_127_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_127_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_127_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_127_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_127_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_127_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_127_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_127_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_127_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_127_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Ripple_channel_RTP_127_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Ripple_channel_RTP_127_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_137.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_137.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_137_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_137_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_137_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_137_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_137_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_137_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_137_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_137_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_137_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_137_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Romantic_RTP_137_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Romantic_RTP_137_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Scenic_RTP_121.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Scenic_RTP_121.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Scenic_RTP_121_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Scenic_RTP_121_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Scenic_RTP_121_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Scenic_RTP_121_175Hz.bin \
@@ -538,13 +689,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Scenic_RTP_121_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Scenic_RTP_121_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Scenic_RTP_121_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Scenic_RTP_121_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Scenic_RTP_121_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Scenic_RTP_121_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_coloros7_134.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_coloros7_134.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_coloros7_134_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_coloros7_134_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_coloros7_134_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_coloros7_134_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_coloros7_134_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_coloros7_134_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_coloros7_134_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_coloros7_134_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_coloros7_134_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_coloros7_134_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_coloros7_134_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_coloros7_134_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_134.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_134.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_134_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_134_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_134_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_134_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_134_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_134_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_134_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_134_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_134_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_134_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Seine_past_RTP_134_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Seine_past_RTP_134_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Silence_From_Afar_RTP_34.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Silence_From_Afar_RTP_34.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Silence_From_Afar_RTP_34_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Silence_From_Afar_RTP_34_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Silence_From_Afar_RTP_34_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Silence_From_Afar_RTP_34_175Hz.bin \
@@ -559,13 +710,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Silence_RTP_35_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Silence_RTP_35_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Silence_RTP_35_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Silence_RTP_35_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Silence_RTP_35_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Silence_RTP_35_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_coloros7_133.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_coloros7_133.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_coloros7_133_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_coloros7_133_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_coloros7_133_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_coloros7_133_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_coloros7_133_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_coloros7_133_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_coloros7_133_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_coloros7_133_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_coloros7_133_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_coloros7_133_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_coloros7_133_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_coloros7_133_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_133.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_133.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_133_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_133_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_133_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_133_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_133_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_133_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_133_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_133_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_133_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_133_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Simple_channel_RTP_133_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Simple_channel_RTP_133_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Splash_channel_RTP_16.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Splash_channel_RTP_16.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Splash_channel_RTP_16_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Splash_channel_RTP_16_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Splash_channel_RTP_16_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Splash_channel_RTP_16_175Hz.bin \
@@ -596,6 +747,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Toys_RTP_38_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Toys_RTP_38_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Vision_RTP_40.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Vision_RTP_40.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_Vision_RTP_40_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Vision_RTP_40_170.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_breath_simulation_RTP_118.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_breath_simulation_RTP_118.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_breath_simulation_RTP_118_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_breath_simulation_RTP_118_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_breath_simulation_RTP_118_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_breath_simulation_RTP_118_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_breath_simulation_RTP_118_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_breath_simulation_RTP_118_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_breath_simulation_RTP_118_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_breath_simulation_RTP_118_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_charging_simulation_RTP_108.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_charging_simulation_RTP_108.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_charging_simulation_RTP_108_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_charging_simulation_RTP_108_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_charging_simulation_RTP_108_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_charging_simulation_RTP_108_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_charging_simulation_RTP_108_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_charging_simulation_RTP_108_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_charging_simulation_RTP_108_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_charging_simulation_RTP_108_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_clock_channel_RTP_43.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_clock_channel_RTP_43.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_clock_channel_RTP_43_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_clock_channel_RTP_43_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_clock_channel_RTP_43_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_clock_channel_RTP_43_175Hz.bin \
@@ -617,6 +778,46 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_desk_7_RTP_54_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_desk_7_RTP_54_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_desk_7_RTP_54_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_desk_7_RTP_54_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_desk_7_RTP_54_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_desk_7_RTP_54_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect1_RTP_110_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect1_RTP_110_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect1_RTP_110_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect1_RTP_110_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect1_RTP_110_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect1_RTP_110_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect1_RTP_110_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect1_RTP_110_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect2_RTP_111.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect2_RTP_111.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect2_RTP_111_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect2_RTP_111_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect2_RTP_111_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect2_RTP_111_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect2_RTP_111_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect2_RTP_111_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect2_RTP_111_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect2_RTP_111_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect3_RTP_112.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect3_RTP_112.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect3_RTP_112_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect3_RTP_112_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect3_RTP_112_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect3_RTP_112_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect3_RTP_112_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect3_RTP_112_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect3_RTP_112_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect3_RTP_112_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect4_RTP_113.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect4_RTP_113.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect4_RTP_113_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect4_RTP_113_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect4_RTP_113_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect4_RTP_113_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect4_RTP_113_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect4_RTP_113_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect4_RTP_113_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect4_RTP_113_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect5_RTP_114.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect5_RTP_114.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect5_RTP_114_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect5_RTP_114_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect5_RTP_114_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect5_RTP_114_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect5_RTP_114_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect5_RTP_114_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect5_RTP_114_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect5_RTP_114_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect6_RTP_115.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect6_RTP_115.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect6_RTP_115_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect6_RTP_115_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect6_RTP_115_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect6_RTP_115_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect6_RTP_115_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect6_RTP_115_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect6_RTP_115_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect6_RTP_115_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect7_RTP_116.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect7_RTP_116.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect7_RTP_116_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect7_RTP_116_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect7_RTP_116_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect7_RTP_116_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect7_RTP_116_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect7_RTP_116_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect7_RTP_116_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect7_RTP_116_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect8_RTP_117.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect8_RTP_117.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect8_RTP_117_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect8_RTP_117_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect8_RTP_117_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect8_RTP_117_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect8_RTP_117_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect8_RTP_117_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_effect8_RTP_117_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_effect8_RTP_117_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_fingerprint_success_RTP_109.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_fingerprint_success_RTP_109.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_haptic_235.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_235.bin \
@@ -761,6 +962,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_235Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_235Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_235Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_reserved_108.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_reserved_108.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_rtp_lighthouse.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp_lighthouse.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_short_channel_RTP_45.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_short_channel_RTP_45.bin \
@@ -805,6 +1007,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_soldier_third_kill_RTP_102_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_soldier_third_kill_RTP_102_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_soldier_third_kill_RTP_102_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_soldier_third_kill_RTP_102_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_soldier_third_kill_RTP_102_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_soldier_third_kill_RTP_102_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_stepable_regulate_RTP_105.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_stepable_regulate_RTP_105.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_stepable_regulate_RTP_105_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_stepable_regulate_RTP_105_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_stepable_regulate_RTP_105_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_stepable_regulate_RTP_105_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_stepable_regulate_RTP_105_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_stepable_regulate_RTP_105_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_stepable_regulate_RTP_105_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_stepable_regulate_RTP_105_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_strength_level_bar_edge_RTP_107.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_strength_level_bar_edge_RTP_107.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_strength_level_bar_edge_RTP_107_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_strength_level_bar_edge_RTP_107_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_strength_level_bar_edge_RTP_107_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_strength_level_bar_edge_RTP_107_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_strength_level_bar_edge_RTP_107_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_strength_level_bar_edge_RTP_107_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_strength_level_bar_edge_RTP_107_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_strength_level_bar_edge_RTP_107_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_two_error_remaind_RTP_46.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_two_error_remaind_RTP_46.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_two_error_remaind_RTP_46_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_two_error_remaind_RTP_46_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_two_error_remaind_RTP_46_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_two_error_remaind_RTP_46_175Hz.bin \
@@ -819,6 +1031,16 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_vibrator_remain_12_RTP_56_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_vibrator_remain_12_RTP_56_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_vibrator_remain_12_RTP_56_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_vibrator_remain_12_RTP_56_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_vibrator_remain_12_RTP_56_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_vibrator_remain_12_RTP_56_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_assistant_RTP_122.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_assistant_RTP_122.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_assistant_RTP_122_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_assistant_RTP_122_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_assistant_RTP_122_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_assistant_RTP_122_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_assistant_RTP_122_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_assistant_RTP_122_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_assistant_RTP_122_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_assistant_RTP_122_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_level_bar_edge_RTP_106.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_level_bar_edge_RTP_106.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_level_bar_edge_RTP_106_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_level_bar_edge_RTP_106_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_level_bar_edge_RTP_106_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_level_bar_edge_RTP_106_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_level_bar_edge_RTP_106_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_level_bar_edge_RTP_106_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_voice_level_bar_edge_RTP_106_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_voice_level_bar_edge_RTP_106_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_waltz_channel_RTP_41.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_waltz_channel_RTP_41.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_waltz_channel_RTP_41_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_waltz_channel_RTP_41_165Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_waltz_channel_RTP_41_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_waltz_channel_RTP_41_175Hz.bin \
@@ -826,76 +1048,118 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_waltz_channel_RTP_41_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_waltz_channel_RTP_41_230Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_waltz_channel_RTP_41_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_waltz_channel_RTP_41_234Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_waltz_channel_RTP_41_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_waltz_channel_RTP_41_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_coloros7_143.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_coloros7_143.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_coloros7_143_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_coloros7_143_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_coloros7_143_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_coloros7_143_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_coloros7_143_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_coloros7_143_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_coloros7_143_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_coloros7_143_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_coloros7_143_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_coloros7_143_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_coloros7_143_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_coloros7_143_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_coloros7_145.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_coloros7_145.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_coloros7_145_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_coloros7_145_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_coloros7_145_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_coloros7_145_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_coloros7_145_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_coloros7_145_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_coloros7_145_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_coloros7_145_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_coloros7_145_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_coloros7_145_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_coloros7_145_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_coloros7_145_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_coloros7_149.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_coloros7_149.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_coloros7_149_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_coloros7_149_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_coloros7_149_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_coloros7_149_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_coloros7_149_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_coloros7_149_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_coloros7_149_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_coloros7_149_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_coloros7_149_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_coloros7_149_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_coloros7_149_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_coloros7_149_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_coloros7_147.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_coloros7_147.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_coloros7_147_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_coloros7_147_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_coloros7_147_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_coloros7_147_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_coloros7_147_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_coloros7_147_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_coloros7_147_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_coloros7_147_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_coloros7_147_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_coloros7_147_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_coloros7_147_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_coloros7_147_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_coloros7_148.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_coloros7_148.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_coloros7_148_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_coloros7_148_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_coloros7_148_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_coloros7_148_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_coloros7_148_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_coloros7_148_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_coloros7_148_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_coloros7_148_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_coloros7_148_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_coloros7_148_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_coloros7_148_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_coloros7_148_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_coloros7_146.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_coloros7_146.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_coloros7_146_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_coloros7_146_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_coloros7_146_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_coloros7_146_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_coloros7_146_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_coloros7_146_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_coloros7_146_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_coloros7_146_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_coloros7_146_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_coloros7_146_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_coloros7_146_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_coloros7_146_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_coloros7_144_237Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_coloros7_142.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_coloros7_142.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_coloros7_142_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_coloros7_142_165Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_coloros7_142_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_coloros7_142_175Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_coloros7_142_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_coloros7_142_226Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_coloros7_142_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_coloros7_142_230Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_coloros7_142_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_coloros7_142_234Hz.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_coloros7_142_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_coloros7_142_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_143.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_143.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_143_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_143_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_143_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_143_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_143_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_143_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_143_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_143_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_143_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_143_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_cloudy_RTP_143_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_cloudy_RTP_143_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_145.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_145.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_145_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_145_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_145_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_145_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_145_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_145_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_145_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_145_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_145_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_145_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_default_RTP_145_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_default_RTP_145_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_149.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_149.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_149_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_149_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_149_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_149_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_149_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_149_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_149_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_149_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_149_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_149_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_rain_RTP_149_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_rain_RTP_149_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_147.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_147.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_147_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_147_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_147_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_147_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_147_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_147_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_147_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_147_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_147_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_147_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_smog_RTP_147_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_smog_RTP_147_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_148.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_148.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_148_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_148_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_148_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_148_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_148_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_148_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_148_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_148_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_148_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_148_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_snow_RTP_148_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_snow_RTP_148_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_146.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_146.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_146_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_146_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_146_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_146_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_146_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_146_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_146_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_146_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_146_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_146_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_sunny_RTP_146_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_sunny_RTP_146_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_144.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_144.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_144_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_144_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_144_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_144_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_144_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_144_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_144_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_144_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_144_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_144_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_thunderstorm_RTP_144_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_thunderstorm_RTP_144_237Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_142.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_142.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_142_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_142_165Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_142_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_142_175Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_142_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_142_226Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_142_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_142_230Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_142_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_142_234Hz.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/aw8697_weather_wind_RTP_142_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_weather_wind_RTP_142_237Hz.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/awinic_haptic_gun_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_gun_params.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_params.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/barca_alarm_ring_RTP_120.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_alarm_ring_RTP_120.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/barca_incoming_ring_RTP_121.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_incoming_ring_RTP_121.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/barca_notice_ring_RTP_122.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_notice_ring_RTP_122.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19066/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19066/oppo_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19063/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19063/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19065/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19065/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19066/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19066/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19067/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19067/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19161/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19161/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19361/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19361/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19362/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19362/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19705/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19705/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19706/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19706/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/19795/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19795/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/20163/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20163/oplus_vooc_fw_rt5125.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/20351/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20351/oplus_vooc_fw_rt5125.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/20607/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20607/oplus_vooc_fw.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/lighthouse.mp3:$(TARGET_COPY_OUT_ODM)/firmware/lighthouse.mp3 \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19065/FW_S6SY791_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19065/FW_S6SY791_SAMSUNG.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19065/FW_S6SY791_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19065/FW_S6SY791_SAMSUNG_FAE.bin \
     vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19065/LIMIT_S6SY791_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19065/LIMIT_S6SY791_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19161/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19161/FW_S3908_BOE.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19161/FW_S6SY771_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19161/FW_S6SY771_SAMSUNG.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19161/FW_S6SY771_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19161/FW_S6SY771_SAMSUNG_FAE.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19161/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19161/LIMIT_S3908_BOE.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19161/LIMIT_S6SY771_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19161/LIMIT_S6SY771_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19795/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/FW_GT9886_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/FW_GT9886_SAMSUNG_FAE.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19795/LIMIT_GT9886_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20061/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20061/FW_S3908_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20061/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20061/FW_S3908_SAMSUNG_FAE.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20061/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20061/LIMIT_S3908_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20135/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20135/FW_S6SY792_SAMSUNG.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20135/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20135/FW_S6SY792_SAMSUNG_FAE.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20135/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20135/LIMIT_S6SY792_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20161/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20161/FW_S6SY792_SAMSUNG.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20161/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20161/FW_S6SY792_SAMSUNG_FAE.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/firmware/tp/20161/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20161/LIMIT_S6SY792_SAMSUNG.img \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/camera/components/com.oplus.node.drawafinfo.so:$(TARGET_COPY_OUT_ODM)/lib/camera/components/com.oplus.node.drawafinfo.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/libadsprpc.so:$(TARGET_COPY_OUT_ODM)/lib/libadsprpc.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/libcdsprpc.so:$(TARGET_COPY_OUT_ODM)/lib/libcdsprpc.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G2.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G3.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G5.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G6.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/libextcamera_client.so:$(TARGET_COPY_OUT_ODM)/lib/libextcamera_client.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/oppo_btaudio_offload_if.so:$(TARGET_COPY_OUT_ODM)/lib/oppo_btaudio_offload_if.so \
@@ -923,22 +1187,33 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.qti.esepowermanager@1.1.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.secure_element@1.0-impl.so \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx586.so \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.imx616.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx616.so \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.imx689.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx689.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx481.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.imx615.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx615.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.imx766.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx766.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.ov02b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov02b.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.s5k3m5.so \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_imx616.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_imx616.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.semco_imx586.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.semco_imx689.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.semco_imx689.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_imx616.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_imx616.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_semco_imx586.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_semco_imx586.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_semco_imx689.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_semco_imx689.bin \
-    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_semco_s5k3m5.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_semco_s5k3m5.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_imx615.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_imx615.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_s5k3m5.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_s5k3m5.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.shine_ov02b.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.sunny_imx766.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sunny_imx766.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.sensormodule.sunny_imx766_dvt.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sunny_imx766_dvt.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_ofilm_imx481_20161.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_ofilm_imx481_20161.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_imx616_20161.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_imx616_20161.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5k3m5_20161.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_s5k3m5_20161.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b10_20161.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_shine_ov02b10_20161.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx766_20161.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_sunny_imx766_20161.bin \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.drawafinfo.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.drawafinfo.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.ecs.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ecs.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.eispreview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.eispreview.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.eisrecord.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.eisrecord.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.ozeispreview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ozeispreview.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.ozeisrecord.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ozeisrecord.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.preview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.preview.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.sat.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sat.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.sstabdefer.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sstabdefer.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.sstabrealt.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sstabrealt.so \
+    vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.videoenhance.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videoenhance.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.videohdr.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videohdr.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.oplus.node.videonight.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videonight.so \
     vendor/oppo/OP4EC1/proprietary/odm/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.qti.node.remosaic.so \
@@ -1059,6 +1334,33 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b06 \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/alipay.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b07 \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.mdt \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b00 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b01 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b02 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b03 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b04 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b05 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b06 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b07 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/cryptoeng.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.mdt \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b00 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b01 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b02 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b03 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b04 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b05 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b06 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b07 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/facereg.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.mdt \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b00 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b01 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b02 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b03 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b04 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b05 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b06 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.b07 \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/fidotap.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/fidotap.mdt \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b02 \
@@ -1071,7 +1373,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/iris5.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5.fw \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/iris5_ccf1.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5_ccf1.fw \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/iris5_ccf2.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5_ccf2.fw \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/ois_bu63169.coeff:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_bu63169.coeff \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/ois_bu63169.prog:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_bu63169.prog \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/ois_bu63169_sec.coeff:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_bu63169_sec.coeff \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/ois_bu63169_sec.prog:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_bu63169_sec.prog \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/ois_sem1215s_19066_dvt.bin:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ois_sem1215s_19066_dvt.bin \
+    vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/teemodel:$(TARGET_COPY_OUT_ODM)/vendor/firmware/teemodel \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b00 \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b01 \
     vendor/oppo/OP4EC1/proprietary/odm/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b02 \
@@ -1340,13 +1647,48 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/ltm_config_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/ltm_config_samsung_S6E3HC3_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_S6E3HC3_dsc_cmd_mode_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/ltm_config_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/ltm_config_samsung_amb655xl08_amoled_fhd+_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_amb655xl08_amoled_fhd+_panel.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_boe_nt37800_amoled_fhd+_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_boe_nt37800_amoled_fhd+_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_120HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_120HZ_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_60HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_60HZ_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_90HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_90HZ_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_120HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_120HZ_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_60HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_60HZ_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_90HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_90HZ_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_cmd_mode_dsi_visionox_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_rm69299_amoled_fhd+_cmd_mode_dsi_visionox_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_samsung_S6E3HC3_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_S6E3HC3_dsc_cmd_mode_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_samsung_amb655xl08_amoled_fhd+_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_amb655xl08_amoled_fhd+_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_td4330_v2_cmd_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4330_v2_cmd_mode_dsi_truly_panel.xml \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
@@ -1358,9 +1700,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/alsps.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/alsps.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/bmi160.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi160.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0.json \
-    vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/bmi26x_0_crt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0_crt.json \
-    vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/bmi26x_0_crt_cfg.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0_crt_cfg.json \
-    vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bmi26x_0.json \
+    vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_amd_sw_disabled.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_default_sensors.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_dynamic_sensors.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_hdk_ak991x_0.json \
@@ -1373,7 +1713,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_lps22hh_0.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_qrd_lsm6ds3c.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_lsm6ds3c.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_qrd_lsm6dsm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_lsm6dsm.json \
-    vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_qrd_lsm6dso.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_lsm6dso.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_qrd_mmc5603nj.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_mmc5603nj.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_sx932x_0.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/kona_qrd_tcs3408.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_tcs3408.json \
@@ -1421,7 +1760,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/tcs3408.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3408.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/config/wigig_sensing_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/wigig_sensing_0.json \
-    vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
@@ -1430,6 +1768,18 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/oppo/OP4EC1/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a619_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a619_gmu.bin \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a620_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b00 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a620_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b01 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a620_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b02 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a620_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.elf \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a620_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.mdt \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/a650_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b00 \
@@ -1437,6 +1787,18 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/dpAP_full.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_full.mbn \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/dpAP_mini.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_mini.mbn \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/dpMSA.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpMSA.mbn \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b00 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b01 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b02 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b03 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b04 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b05 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b06 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.b07 \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/image/opluseid.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/image/opluseid.mdt \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -1449,7 +1811,51 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/oppo/OP4EC1/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
+    vendor/oppo/OP4EC1/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
     vendor/oppo/OP4EC1/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.addconstant.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.binning.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.customhwnode.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.depth.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummyrtb.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummysat.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv2.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv3.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.fcv.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.gpu.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.memcpy.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.stich.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.swec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swec.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.swfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swfusion.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swregistration.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aec.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aecwrapper.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.af.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afd.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afwrapper.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.asd.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awb.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awbwrapper.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.haf.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.hafoverride.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlib.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibsony.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibwrapper.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.tracker.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.aec.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.af.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.awb.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/libdepthmapwrapper.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/oppo/OP4EC1/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -1614,6 +2020,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
@@ -1629,6 +2037,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.node.swec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swec.so \
+    vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.node.swfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swfusion.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
     vendor/oppo/OP4EC1/proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \

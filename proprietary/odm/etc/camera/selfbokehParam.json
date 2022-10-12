@@ -1,0 +1,102 @@
+{
+    "module": "segdepth_hairmatting",
+    "comment":
+    [
+        "QCOM performanceMode(BALANCED , HIGH_PERFORMANCE , POWER_SAVER , SYSTEM_SETTINGS , SUSTAINED_HIGH_PERFORMANCE ,",
+        "BURST , LOW_POWER_SAVER , HIGH_POWER_SAVER , LOW_BALANCED)",
+
+        "QCOM runtime(CPU_FLOAT32, GPU_FLOAT32_16_HYBRID, GPU_FLOAT16, DSP_FIXED8_TF, AIP_FIXED8_TF)",
+
+        "MTK performanceMode(kLowPower , kFastSingleAnswer , kSustainedSpeed)",
+        "WinTFLite runtime(UNKNOWN)",
+        "WinTFLite performanceMode(UNKNOWN)",
+        "MTK runtime(FLOAT, UINT8)",
+
+        "ImageWidth/ImageHeight(576, 768)",
+        "ROIMode(inner, outer)"
+    ],
+	"product": "8250",
+    "VENDOR": "QCOM",
+    "BrandModels": "BrandA",
+    "SNPE_VERSION": "1.35.0.698",
+    "param":
+    [
+        {
+            "product_name": "8350",
+            "SegMode": "DSP",
+            "DepthMode": "DSP",
+            "SegPerformanceMode": "POWER_SAVER",
+            "DepthPerformanceMode": "POWER_SAVER",
+            "SegEnable": true,
+            "DepthEnable": true,
+            "MattingEnable": true,
+            "HairMattingRuntime": "DSP_FIXED8_TF",
+            "HairMattingPerformanceMode": "POWER_SAVER",
+            "HairMattingImageWidth": 576,
+            "HairMattingImageHeight": 768,
+            "HairMattingROIMode": "inner"
+        },
+        {
+            "product_name": "8250",
+            "SegMode": "DSP",
+            "DepthMode": "DSP",
+            "SegPerformanceMode": "BALANCED",
+            "DepthPerformanceMode": "BALANCED",
+            "SegEnable": true,
+            "DepthEnable": true,
+            "MattingEnable": true,
+            "HairMattingRuntime": "DSP_FIXED8_TF",
+            "HairMattingPerformanceMode": "BALANCED",
+            "HairMattingImageWidth": 576,
+            "HairMattingImageHeight": 768,
+            "HairMattingROIMode": "inner",
+            "NeonPerformanceMode":0,
+            "BokehLutPerformanceMode":0
+        },
+        {
+            "product_name": "7125",
+            "SegMode": "DSP",
+            "DepthMode": "DSP",
+            "SegPerformanceMode": "POWER_SAVER",
+            "DepthPerformanceMode": "POWER_SAVER",
+            "SegEnable": true,
+            "DepthEnable": false,
+            "MattingEnable": false
+        },
+        {
+            "product_name": "5G-B",
+            "SegMode": "DSP",
+            "DepthMode": "DSP",
+            "SegPerformanceMode": "kSustainedSpeed",
+            "DepthPerformanceMode": "kSustainedSpeed",
+            "SegEnable": true,
+            "DepthEnable": false,
+            "MattingEnable": false
+        },
+        {
+            "product_name": "NEXT-D",
+            "SegMode": "NNAPI",
+            "DepthMode": "NEURON",
+            "SegPerformanceMode": "kSustainedSpeed",
+            "DepthPerformanceMode": "kSustainedSpeed",
+            "SegEnable": true,
+            "DepthEnable": false,
+            "MattingEnable": false,
+            "HairMattingRuntime": "UINT8",
+            "HairMattingPerformanceMode": "kSustainedSpeed",
+            "HairMattingImageWidth": 576,
+            "HairMattingImageHeight": 768,
+            "HairMattingROIMode": "inner"
+        },
+        {
+            "product_name": "NEXT-A",
+            "SegMode": "DSP",
+            "DepthMode": "DSP",
+            "SegPerformanceMode": "kSustainedSpeed",
+            "DepthPerformanceMode": "kSustainedSpeed",
+            "SegEnable": true,
+            "DepthEnable": false,
+            "MattingEnable": false
+        }
+    ]
+}
